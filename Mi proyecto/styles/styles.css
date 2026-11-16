@@ -1,0 +1,117 @@
+/*ESTILOS GENERALES*/
+
+/*PALETA DE COLORES*/
+:root {--color-primario: #71866A;
+       --color-secundario: #E8E9DF;
+       --color-acento: #C49A68;
+}
+
+
+/*FONDO DEL SITIO*/
+body{
+    background-color: var(--color-secundario);
+    color: #333333;
+    margin: 0;
+}
+
+/* TIPOGRAFÍA */
+
+body {
+    font-family:'Abel', sans-serif
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+/* TITULOS Y TEXTOS */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-primario);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-primario);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* NAGEGACIÓN */
+.menu-principal {
+    background-color: var(--color-primario);
+    padding: 15px;
+}
+.menu-principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-principal a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-principal a:hover {
+    color: var(--color-acento);
+}
+
+/*SECCIONES Y CONTENIDO*/
+.seccion-principal {
+    background-color: #FFFFFF;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 12px;
+}
+
+.articulo-principal {
+    background-color: var(--color-secundario);
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+/* PIE DE PAGINA */
+.pie-pagina {
+    background-color: var(--color-primario);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.pie-pagina p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.pie-pagina img {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+
